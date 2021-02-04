@@ -13,7 +13,7 @@ function FirstScreen(){
 
             </Box>
             <Box boxShadow={5} id="bottom">
-                <div class="centerer">
+                <div className="centerer">
                     <SocialIcon
                         link="https://github.com/thienudomsrirungruang"
                         icon={GithubIcon}
@@ -34,8 +34,8 @@ function FirstScreen(){
                     />
                 </div>
             </Box>
-            <div class="middle_container">
-                <div class="picture"></div>
+            <div className="middle_container">
+                <div className="picture"></div>
             </div>
         </div>
     );
