@@ -22,3 +22,7 @@
     transition:.2s;
     opacity: 0.8 !important;
 }
+
+.icon_wrapper{
+    margin: 10px;
+}
