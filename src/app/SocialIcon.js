@@ -5,7 +5,7 @@ function SocialIcon(props) {
     const IconTooltip = withStyles((theme) => ({
         tooltip: {
             backgroundColor: "#F8F7F6",
-            fontSize: 11,
+            fontSize: 12,
             color: "#1E1C25",
             border: "1px",
         }
