@@ -7,7 +7,7 @@ function MainContent(){
         <div className="content_wrapper">
             <Container>
                 <Grid container spacing={5}>
-                    <Grid item xs={6}>
+                    <Grid item xs={12} sm={6}>
                         <p>{bio}</p>
                     </Grid>
                 </Grid>
