@@ -1,6 +1,7 @@
 import "./MainContent.css";
 import { Container, Grid } from "@material-ui/core";
 import bio from "../assets/text/bio.js"
+import FadeInSection from "./FadeInSection";
 
 function MainContent(props){
     return (
@@ -8,8 +9,11 @@ function MainContent(props){
             <Container>
                 <Grid container spacing={5}>
                     <Grid item xs={12} sm={6}>
-                        <h1>Bio</h1>
-                        <p>{bio}</p>
+                        <FadeInSection fade_direction="fade_right">
+                            <h1>Bio</h1>
+                            <p>{bio}</p>
+
+                        </FadeInSection>
                     </Grid>
                 </Grid>
             </Container>
