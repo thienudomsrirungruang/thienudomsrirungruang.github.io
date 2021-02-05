@@ -1,5 +1,5 @@
 import './SocialIcon.css';
-import { Divider, IconButton, SvgIcon, Tooltip, withStyles } from '@material-ui/core';
+import { Tooltip, withStyles } from '@material-ui/core';
 
 function SocialIcon(props) {
     const IconTooltip = withStyles((theme) => ({

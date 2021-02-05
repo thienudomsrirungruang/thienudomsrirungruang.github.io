@@ -5,7 +5,6 @@ import Box from '@material-ui/core/Box';
 import GithubIcon from '../assets/icons/GithubIcon.svg';
 import CodeforcesIcon from '../assets/icons/CodeforcesIcon.svg';
 import AtcoderIcon from '../assets/icons/AtcoderIcon.png';
-import { Container } from "@material-ui/core";
 
 function FirstScreen(props){
     return (
