@@ -1,9 +1,13 @@
 import './App.css';
 import FirstScreen from './FirstScreen.js';
+import MainContent from './MainContent.js';
 
 function App() {
     return (
-        <FirstScreen/>
+        <div>
+            <FirstScreen/>
+            <MainContent/>
+        </div>
     );
 }
 
