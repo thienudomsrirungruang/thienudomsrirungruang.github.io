@@ -2,7 +2,7 @@ import "./MainContent.css";
 import { Container, Grid } from "@material-ui/core";
 import bio from "../assets/text/bio.js"
 
-function MainContent(){
+function MainContent(props){
     return (
         <div className="content_wrapper">
             <Container>

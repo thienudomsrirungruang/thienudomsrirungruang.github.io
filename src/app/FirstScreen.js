@@ -7,7 +7,7 @@ import CodeforcesIcon from '../assets/icons/CodeforcesIcon.svg';
 import AtcoderIcon from '../assets/icons/AtcoderIcon.png';
 import { Container } from "@material-ui/core";
 
-function FirstScreen(){
+function FirstScreen(props){
     return (
         <div id="window_container">
             <Box boxShadow={10} id="top">
