@@ -3,6 +3,7 @@ import { Container, Grid } from "@material-ui/core";
 import bio from "../assets/text/bio.js"
 import FadeInSection from "./FadeInSection";
 import PlaceholderImage from "../assets/images/placeholder.png"
+import Paragraphize from "./Paragraphize";
 
 function MainContent(props){
     return (
@@ -12,7 +13,7 @@ function MainContent(props){
                     <Grid item xs={12} sm={6}>
                         <FadeInSection fade_direction="fade_right">
                             <h1>Bio</h1>
-                            <p>{bio}</p>
+                            <Paragraphize content={bio}></Paragraphize>
                         </FadeInSection>
                     </Grid>
                     <Grid item xs={12} sm={6}>

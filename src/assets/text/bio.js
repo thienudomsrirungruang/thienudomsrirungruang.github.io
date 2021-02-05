@@ -1,2 +1,6 @@
-export default `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id leo nibh. Curabitur finibus, tellus id congue scelerisque, diam magna porta lacus, id dapibus risus sem eget velit. Etiam at pellentesque est. Sed tristique imperdiet viverra. Nulla maximus, ante porttitor maximus luctus, est lorem vehicula magna, ac cursus erat orci pulvinar leo. Donec sagittis ut metus quis suscipit. Proin mollis ultricies felis quis venenatis. Integer ante augue, mollis in ultrices id, sodales vitae ante. Fusce faucibus nisi in vulputate interdum. Cras a tellus sollicitudin, viverra velit eu, tempus massa. Phasellus laoreet augue at nisl commodo condimentum.`;
+export default `Hi! I'm a high school student (currently in my final year) who's interested in computer science, programming and math. I've been programming since I was 9, and have done some interesting and fun projects since then - have a look below!
+\n
+Some of my more specific academic interests are in artificial intelligence and theoretical computer science, and I've taken part in multiple online programming competitions, getting a Top 200 finish in the Facebook Hacker Cup 2020.
+\n
+I'm also interested in speedcubing and rhythm games.`;
 
