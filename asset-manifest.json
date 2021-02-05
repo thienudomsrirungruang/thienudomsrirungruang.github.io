@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.797776af.chunk.css",
+    "main.js": "/static/js/main.426db449.chunk.js",
+    "main.js.map": "/static/js/main.426db449.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.89fda817.js",
+    "runtime-main.js.map": "/static/js/runtime-main.89fda817.js.map",
+    "static/js/2.e7aa2d01.chunk.js": "/static/js/2.e7aa2d01.chunk.js",
+    "static/js/2.e7aa2d01.chunk.js.map": "/static/js/2.e7aa2d01.chunk.js.map",
+    "static/js/3.5bcab3f1.chunk.js": "/static/js/3.5bcab3f1.chunk.js",
+    "static/js/3.5bcab3f1.chunk.js.map": "/static/js/3.5bcab3f1.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.797776af.chunk.css.map": "/static/css/main.797776af.chunk.css.map",
+    "static/js/2.e7aa2d01.chunk.js.LICENSE.txt": "/static/js/2.e7aa2d01.chunk.js.LICENSE.txt",
+    "static/media/AtcoderIcon.695dda03.png": "/static/media/AtcoderIcon.695dda03.png",
+    "static/media/CodeforcesIcon.58ad75ad.svg": "/static/media/CodeforcesIcon.58ad75ad.svg",
+    "static/media/GithubIcon.164d6380.svg": "/static/media/GithubIcon.164d6380.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.89fda817.js",
+    "static/js/2.e7aa2d01.chunk.js",
+    "static/css/main.797776af.chunk.css",
+    "static/js/main.426db449.chunk.js"
+  ]
+}
