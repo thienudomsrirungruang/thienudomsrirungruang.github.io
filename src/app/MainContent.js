@@ -2,6 +2,7 @@ import "./MainContent.css";
 import { Container, Grid } from "@material-ui/core";
 import bio from "../assets/text/Bio.js"
 import timetable from "../assets/text/TimetableSpreadsheet.js"
+import impostor from "../assets/text/Impostor.js"
 import FadeInSection from "./FadeInSection";
 import PlaceholderImage from "../assets/images/placeholder.png"
 import Paragraphize from "./Paragraphize";
@@ -40,6 +41,17 @@ function MainContent(props){
                     <Grid item xs={12} md={4}>
                         <FadeInSection fade_direction="fade_left">
                             <img class="inline_image" src={PlaceholderImage} alt="placeholder"/>
+                        </FadeInSection>
+                    </Grid>
+                    <Grid item xs={12} md={4}>
+                        <FadeInSection fade_direction="fade_right">
+                            <img className="inline_image" src={PlaceholderImage} alt="placeholder"/>
+                        </FadeInSection>
+                    </Grid>
+                    <Grid item xs={12} md={8}>
+                        <FadeInSection fade_direction="fade_left">
+                            <h3>Impostor Chatbot</h3>
+                            <Paragraphize content={impostor}></Paragraphize>
                         </FadeInSection>
                     </Grid>
                 </Grid>
