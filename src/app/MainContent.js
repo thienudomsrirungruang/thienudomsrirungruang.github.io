@@ -7,6 +7,7 @@ import FadeInSection from "./FadeInSection";
 import PlaceholderImage from "../assets/images/placeholder.png"
 import Paragraphize from "./Paragraphize";
 import ImpostorImage from "../assets/images/impostor.png"
+import warships from "../assets/text/Warships.js"
 
 function MainContent(props){
     return (
@@ -45,6 +46,13 @@ function MainContent(props){
                         <Grid item xs={12} md={9}>
                             <h3>Impostor Chatbot</h3>
                             <Paragraphize content={impostor}></Paragraphize>
+                        </Grid>
+                        <Grid item xs={12} md={8}>
+                            <h3>Warships</h3>
+                            <Paragraphize content={warships}></Paragraphize>
+                        </Grid>
+                        <Grid item xs={12} md={4}>
+                            <img className="inline_image" src={PlaceholderImage} alt="placeholder"/>
                         </Grid>
                     </Grid>
                 </FadeInSection>
