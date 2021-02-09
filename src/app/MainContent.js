@@ -46,10 +46,20 @@ function MainContent(props){
                         <Grid item xs={12} md={9}>
                             <h3>Impostor Chatbot</h3>
                             <Paragraphize content={impostor}></Paragraphize>
+                            <p>
+                                The source code for the bot can be found <a href="https://github.com/thienudomsrirungruang/impostor">
+                                    here
+                                </a>.
+                            </p>
                         </Grid>
                         <Grid item xs={12} md={8}>
                             <h3>Warships</h3>
                             <Paragraphize content={warships}></Paragraphize>
+                            <p>
+                                The project link can be found <a href="https://github.com/thienudomsrirungruang/warships-game">
+                                    here
+                                </a>.
+                            </p>
                         </Grid>
                         <Grid item xs={12} md={4}>
                             <img className="inline_image" src={PlaceholderImage} alt="placeholder"/>
