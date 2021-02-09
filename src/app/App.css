@@ -2,3 +2,10 @@
     height: 100%;
 } */
 
+a{
+    color:#DE5E09;
+}
+
+a:hover{
+    color: #EEA575;
+}
