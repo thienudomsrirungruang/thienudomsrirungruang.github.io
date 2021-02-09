@@ -20,7 +20,7 @@ function MainContent(props){
                     </Grid>
                     <Grid item xs={12} md={6}>
                         <FadeInSection fade_direction="fade_left">
-                            <img class="inline_image" src={PlaceholderImage} alt="placeholder"/>
+                            <img className="inline_image" src={PlaceholderImage} alt="placeholder"/>
                         </FadeInSection>
                     </Grid>
                 </Grid>
@@ -40,7 +40,7 @@ function MainContent(props){
                     </Grid>
                     <Grid item xs={12} md={4}>
                         <FadeInSection fade_direction="fade_left">
-                            <img class="inline_image" src={PlaceholderImage} alt="placeholder"/>
+                            <img className="inline_image" src={PlaceholderImage} alt="placeholder"/>
                         </FadeInSection>
                     </Grid>
                     <Grid item xs={12} md={4}>
