@@ -7,6 +7,8 @@ import FadeInSection from "./FadeInSection";
 import PlaceholderImage from "../assets/images/placeholder.png"
 import Paragraphize from "./Paragraphize";
 import ImpostorImage from "../assets/images/impostor.png"
+import TimetableImage from "../assets/images/timetable.png"
+import WarshipsImage from "../assets/images/warships.png"
 import warships from "../assets/text/Warships.js"
 
 function MainContent(props){
@@ -38,10 +40,10 @@ function MainContent(props){
                             </p>
                         </Grid>
                         <Grid item xs={12} md={4}>
-                            <img className="inline_image" src={PlaceholderImage} alt="placeholder"/>
+                            <img className="inline_image" src={TimetableImage} alt="A spreadsheet, currently selecting term dates."/>
                         </Grid>
                         <Grid item xs={12} md={3}>
-                            <img className="inline_image" src={ImpostorImage} alt="placeholder"/>
+                            <img className="inline_image" src={ImpostorImage} alt="Chat messages between users Thien and impostor-bot, who is a bot."/>
                         </Grid>
                         <Grid item xs={12} md={9}>
                             <h3>Impostor Chatbot</h3>
@@ -62,7 +64,7 @@ function MainContent(props){
                             </p>
                         </Grid>
                         <Grid item xs={12} md={4}>
-                            <img className="inline_image" src={PlaceholderImage} alt="placeholder"/>
+                            <img className="inline_image" src={WarshipsImage} alt="The game Warships in action."/>
                         </Grid>
                     </Grid>
                 </FadeInSection>
