@@ -1,5 +1,6 @@
 import './App.css';
 import FirstScreen from './FirstScreen.js';
+import Footer from './Footer.js';
 import MainContent from './MainContent.js';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
         <div>
             <FirstScreen/>
             <MainContent/>
+            <Footer/>
         </div>
     );
 }
